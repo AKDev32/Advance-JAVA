@@ -10,4 +10,9 @@ public class SellerUser extends User {
     public void addProducts () {
         System.out.println("Seller is adding a new product");
     }
+
+    @Override
+    public void showDashBoard() {
+        System.out.println("Seller user personalised dashBoard");
+    }
 }

@@ -2,8 +2,8 @@ package L18;
 
 public class User {
 
-    private String username;
-    private String email;
+    protected String username;
+    protected String email;
 
     public User(String username, String email) {
         this.username = username;
@@ -11,6 +11,10 @@ public class User {
     }
 
     public void login () {
-        System.out.println(username + "logged in");
+        System.out.println(username + " logged in");
+    }
+
+    public void showDashBoard () {
+        System.out.println(username + "'s dashboard");
     }
 }
