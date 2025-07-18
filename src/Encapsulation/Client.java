@@ -15,5 +15,15 @@ public class Client {
 
         System.out.println("Voter name is " + voter.getName());
         System.out.println("Voter age is " + voter.getAge());
+
+        BankAccount account = new BankAccount("1234567890", 10000);
+        System.out.println("Account Number : " + account.getAccountNumber());
+        System.out.println("Current Balance : " + account.getBalance());
+
+        account.deposit(500);
+        System.out.println("Balance after deposit : "  + account.getBalance());
+
+        account.withdraw(300);
+        System.out.println("Balance after withdrawal : " + account.getBalance());
     }
 }
