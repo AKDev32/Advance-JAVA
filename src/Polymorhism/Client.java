@@ -12,5 +12,12 @@ public class Client {
         System.out.println(Calculator.add(2, 4));
         System.out.println(Calculator.add(2, 4, 6));
         System.out.println(Calculator.add(2, 4, 6, 8));
+
+
+        Animal myDog = new Animal.Dog();
+        Animal myCat = new Animal.Cat();
+
+        myCat.makeSound(); // Meow
+        myDog.makeSound(); // Barks
     }
 }
