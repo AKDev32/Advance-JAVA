@@ -1,4 +1,4 @@
-package Interface;
+package Interface.Example1;
 
 public class EmailService implements NotificationService {
 

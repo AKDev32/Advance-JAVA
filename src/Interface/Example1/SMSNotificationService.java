@@ -1,4 +1,6 @@
-package Interface;
+package Interface.Example1;
+
+import Interface.Example1.NotificationService;
 
 public class SMSNotificationService implements NotificationService {
 
