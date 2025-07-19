@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Example1;
 
 public class SellerUser extends User {
 
