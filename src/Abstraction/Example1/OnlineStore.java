@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.Example1;
 
 public class OnlineStore {
 

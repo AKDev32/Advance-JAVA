@@ -1,6 +1,6 @@
-package Abstraction;
+package Abstraction.Example1;
 
-public class Clothing extends Product{
+public class Clothing extends Product {
 
     public Clothing (String name, double price) {
         super(name, price);
