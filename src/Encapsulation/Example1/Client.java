@@ -1,4 +1,4 @@
-package Encapsulation;
+package Encapsulation.Example1;
 
 public class Client {
     public static void main(String[] args) {

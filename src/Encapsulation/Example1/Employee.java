@@ -1,4 +1,4 @@
-package Encapsulation;
+package Encapsulation.Example1;
 
 public class Employee {
     private String name;
